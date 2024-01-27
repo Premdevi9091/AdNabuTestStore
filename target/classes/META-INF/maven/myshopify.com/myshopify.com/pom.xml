@@ -3,7 +3,7 @@
   <groupId>myshopify.com</groupId>
   <artifactId>myshopify.com</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <!--<build>
+  <build>
     <pluginManagement>
       <plugins>
 		  
@@ -26,7 +26,7 @@
         
       </plugins>
     </pluginManagement>
-  </build> -->
+  </build>
   
   <dependencies>
 		  <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->

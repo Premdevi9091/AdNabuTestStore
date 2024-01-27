@@ -1,0 +1,13 @@
+C:\Users\prampalk\OneDrive - Capgemini\Desktop\Automation\Automation_Nov\myshopify.com\src\test\java\pageObjects\BasePage.java
+C:\Users\prampalk\OneDrive - Capgemini\Desktop\Automation\Automation_Nov\myshopify.com\src\test\java\pageObjects\CartPage.java
+C:\Users\prampalk\OneDrive - Capgemini\Desktop\Automation\Automation_Nov\myshopify.com\src\test\java\pageObjects\HomePage.java
+C:\Users\prampalk\OneDrive - Capgemini\Desktop\Automation\Automation_Nov\myshopify.com\src\test\java\pageObjects\SearchResultPage.java
+C:\Users\prampalk\OneDrive - Capgemini\Desktop\Automation\Automation_Nov\myshopify.com\src\test\java\testBase\BaseClass.java
+C:\Users\prampalk\OneDrive - Capgemini\Desktop\Automation\Automation_Nov\myshopify.com\src\test\java\testCases\TC_01_WebSite_Launch.java
+C:\Users\prampalk\OneDrive - Capgemini\Desktop\Automation\Automation_Nov\myshopify.com\src\test\java\testCases\TC_02_ValidSearchProduct.java
+C:\Users\prampalk\OneDrive - Capgemini\Desktop\Automation\Automation_Nov\myshopify.com\src\test\java\testCases\TC_03_InvalidSearchProduct.java
+C:\Users\prampalk\OneDrive - Capgemini\Desktop\Automation\Automation_Nov\myshopify.com\src\test\java\testCases\TC_04_FilterBySwitch.java
+C:\Users\prampalk\OneDrive - Capgemini\Desktop\Automation\Automation_Nov\myshopify.com\src\test\java\testCases\TC_05_ClearFilter.java
+C:\Users\prampalk\OneDrive - Capgemini\Desktop\Automation\Automation_Nov\myshopify.com\src\test\java\testCases\TC_06_AddtoCard.java
+C:\Users\prampalk\OneDrive - Capgemini\Desktop\Automation\Automation_Nov\myshopify.com\src\test\java\testCases\TC_07_RemovefromCart.java
+C:\Users\prampalk\OneDrive - Capgemini\Desktop\Automation\Automation_Nov\myshopify.com\src\test\java\utilities\ExtentReportManager.java

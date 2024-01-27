@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-27T12:19:02 IST" name="Suite" finished-at="2024-01-27T12:20:57 IST" duration-ms="115269">
+    <groups>
+    </groups>
+    <test started-at="2024-01-27T12:19:02 IST" name="Test" finished-at="2024-01-27T12:20:57 IST" duration-ms="115269">
+      <class name="testCases.TC_07_RemovefromCart">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC_07_RemovefromCart@273e7444]" started-at="2024-01-27T12:20:39 IST" name="setup" finished-at="2024-01-27T12:20:47 IST" duration-ms="7857" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_removefromcart()[pri:0, instance:testCases.TC_07_RemovefromCart@273e7444]" started-at="2024-01-27T12:20:47 IST" name="verify_removefromcart" finished-at="2024-01-27T12:20:56 IST" duration-ms="9130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_removefromcart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_07_RemovefromCart@273e7444]" started-at="2024-01-27T12:20:56 IST" name="tearDown" finished-at="2024-01-27T12:20:57 IST" duration-ms="880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_07_RemovefromCart -->
+      <class name="testCases.TC_04_FilterBySwitch">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC_04_FilterBySwitch@54e1c68b]" started-at="2024-01-27T12:19:40 IST" name="setup" finished-at="2024-01-27T12:19:49 IST" duration-ms="8969" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_filterby()[pri:0, instance:testCases.TC_04_FilterBySwitch@54e1c68b]" started-at="2024-01-27T12:19:49 IST" name="verify_filterby" finished-at="2024-01-27T12:19:56 IST" duration-ms="6412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_filterby -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_04_FilterBySwitch@54e1c68b]" started-at="2024-01-27T12:19:56 IST" name="tearDown" finished-at="2024-01-27T12:19:57 IST" duration-ms="842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_04_FilterBySwitch -->
+      <class name="testCases.TC_05_ClearFilter">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC_05_ClearFilter@53aac487]" started-at="2024-01-27T12:19:57 IST" name="setup" finished-at="2024-01-27T12:20:05 IST" duration-ms="8273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_clearfilterby()[pri:0, instance:testCases.TC_05_ClearFilter@53aac487]" started-at="2024-01-27T12:20:05 IST" name="verify_clearfilterby" finished-at="2024-01-27T12:20:14 IST" duration-ms="8213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_clearfilterby -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_05_ClearFilter@53aac487]" started-at="2024-01-27T12:20:14 IST" name="tearDown" finished-at="2024-01-27T12:20:15 IST" duration-ms="951" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_05_ClearFilter -->
+      <class name="testCases.TC_06_AddtoCard">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC_06_AddtoCard@52b1beb6]" started-at="2024-01-27T12:20:15 IST" name="setup" finished-at="2024-01-27T12:20:22 IST" duration-ms="7444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_addtocard()[pri:0, instance:testCases.TC_06_AddtoCard@52b1beb6]" started-at="2024-01-27T12:20:22 IST" name="verify_addtocard" finished-at="2024-01-27T12:20:30 IST" duration-ms="7845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_addtocard -->
+        <test-method signature="verify_addtocard2()[pri:0, instance:testCases.TC_06_AddtoCard@52b1beb6]" started-at="2024-01-27T12:20:31 IST" name="verify_addtocard2" finished-at="2024-01-27T12:20:38 IST" duration-ms="7248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_addtocard2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_06_AddtoCard@52b1beb6]" started-at="2024-01-27T12:20:38 IST" name="tearDown" finished-at="2024-01-27T12:20:39 IST" duration-ms="945" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_06_AddtoCard -->
+      <class name="testCases.TC_02_ValidSearchProduct">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC_02_ValidSearchProduct@7d4f9aae]" started-at="2024-01-27T12:19:15 IST" name="setup" finished-at="2024-01-27T12:19:23 IST" duration-ms="7789" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_validsearch()[pri:0, instance:testCases.TC_02_ValidSearchProduct@7d4f9aae]" started-at="2024-01-27T12:19:23 IST" name="verify_validsearch" finished-at="2024-01-27T12:19:27 IST" duration-ms="3974" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_validsearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_02_ValidSearchProduct@7d4f9aae]" started-at="2024-01-27T12:19:27 IST" name="tearDown" finished-at="2024-01-27T12:19:28 IST" duration-ms="978" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_02_ValidSearchProduct -->
+      <class name="testCases.TC_01_WebSite_Launch">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC_01_WebSite_Launch@2d710f1a]" started-at="2024-01-27T12:19:02 IST" name="setup" finished-at="2024-01-27T12:19:13 IST" duration-ms="10554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_homepage()[pri:0, instance:testCases.TC_01_WebSite_Launch@2d710f1a]" started-at="2024-01-27T12:19:13 IST" name="verify_homepage" finished-at="2024-01-27T12:19:14 IST" duration-ms="719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_homepage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_01_WebSite_Launch@2d710f1a]" started-at="2024-01-27T12:19:14 IST" name="tearDown" finished-at="2024-01-27T12:19:15 IST" duration-ms="907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_01_WebSite_Launch -->
+      <class name="testCases.TC_03_InvalidSearchProduct">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC_03_InvalidSearchProduct@72e5a8e]" started-at="2024-01-27T12:19:28 IST" name="setup" finished-at="2024-01-27T12:19:36 IST" duration-ms="7794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_invalidsearch()[pri:0, instance:testCases.TC_03_InvalidSearchProduct@72e5a8e]" started-at="2024-01-27T12:19:36 IST" name="verify_invalidsearch" finished-at="2024-01-27T12:19:39 IST" duration-ms="3349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_invalidsearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_03_InvalidSearchProduct@72e5a8e]" started-at="2024-01-27T12:19:40 IST" name="tearDown" finished-at="2024-01-27T12:19:40 IST" duration-ms="859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_03_InvalidSearchProduct -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

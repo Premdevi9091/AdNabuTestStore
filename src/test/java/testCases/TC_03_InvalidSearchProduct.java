@@ -21,6 +21,7 @@ public class TC_03_InvalidSearchProduct extends BaseClass{
 		hp.innersearchClick(fileobj.getProperty("invalidproductname"));
 		Thread.sleep(500);
 		String result="No results found for “"+fileobj.getProperty("invalidproductname")+"”. Check the spelling or use a different word or phrase.";
+		//validated by error message
 		Assert.assertEquals(result,sresult.resultString());
 	}
 

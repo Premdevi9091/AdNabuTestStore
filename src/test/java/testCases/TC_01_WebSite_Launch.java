@@ -14,7 +14,7 @@ public class TC_01_WebSite_Launch extends BaseClass{
 		HomePage log= new HomePage(driver);
 		Thread.sleep(500);
 		
-		//verified by title adnabu-submit
+		//verified by header title adnabu-submit
 		Assert.assertEquals("adnabu-Sumit", log.getTitleText());
 	}
 
