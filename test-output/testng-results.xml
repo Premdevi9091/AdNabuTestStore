@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="7" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-27T12:09:31 IST" name="Suite" finished-at="2024-01-27T12:12:14 IST" duration-ms="163444">
+    <groups>
+    </groups>
+    <test started-at="2024-01-27T12:09:31 IST" name="Test" finished-at="2024-01-27T12:12:14 IST" duration-ms="163444">
+      <class name="testCases.TC_07_RemovefromCart">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC_07_RemovefromCart@1c7696c6]" started-at="2024-01-27T12:11:55 IST" name="setup" finished-at="2024-01-27T12:12:03 IST" duration-ms="7772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_removefromcart()[pri:0, instance:testCases.TC_07_RemovefromCart@1c7696c6]" started-at="2024-01-27T12:12:03 IST" name="verify_removefromcart" finished-at="2024-01-27T12:12:13 IST" duration-ms="10333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_removefromcart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_07_RemovefromCart@1c7696c6]" started-at="2024-01-27T12:12:13 IST" name="tearDown" finished-at="2024-01-27T12:12:14 IST" duration-ms="981" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_07_RemovefromCart -->
+      <class name="testCases.TC_04_FilterBySwitch">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC_04_FilterBySwitch@1ffaf86]" started-at="2024-01-27T12:10:11 IST" name="setup" finished-at="2024-01-27T12:10:21 IST" duration-ms="9684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_filterby()[pri:0, instance:testCases.TC_04_FilterBySwitch@1ffaf86]" started-at="2024-01-27T12:10:21 IST" name="verify_filterby" finished-at="2024-01-27T12:10:27 IST" duration-ms="6467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_filterby -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_04_FilterBySwitch@1ffaf86]" started-at="2024-01-27T12:10:28 IST" name="tearDown" finished-at="2024-01-27T12:10:29 IST" duration-ms="818" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_04_FilterBySwitch -->
+      <class name="testCases.TC_05_ClearFilter">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC_05_ClearFilter@6574a52c]" started-at="2024-01-27T12:10:29 IST" name="setup" finished-at="2024-01-27T12:10:37 IST" duration-ms="8610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_clearfilterby()[pri:0, instance:testCases.TC_05_ClearFilter@6574a52c]" started-at="2024-01-27T12:10:37 IST" name="verify_clearfilterby" finished-at="2024-01-27T12:10:46 IST" duration-ms="8609" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_clearfilterby -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_05_ClearFilter@6574a52c]" started-at="2024-01-27T12:10:46 IST" name="tearDown" finished-at="2024-01-27T12:10:47 IST" duration-ms="1009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_05_ClearFilter -->
+      <class name="testCases.TC_06_AddtoCard">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC_06_AddtoCard@6c1a5b54]" started-at="2024-01-27T12:10:47 IST" name="setup" finished-at="2024-01-27T12:10:56 IST" duration-ms="8741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_addtocard()[pri:0, instance:testCases.TC_06_AddtoCard@6c1a5b54]" started-at="2024-01-27T12:10:56 IST" name="verify_addtocard" finished-at="2024-01-27T12:11:44 IST" duration-ms="47728" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class="cart-item__name h4 break"]"}
+  (Session info: MicrosoftEdge=121.0.2277.83)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [6d379ba4c18920a67069bdb6211e984c, findElement {using=xpath, value=//a[@class="cart-item__name h4 break"]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 121.0.2277.83, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:50623}, msedge: {msedgedriverVersion: 121.0.2277.83 (ff4586e3b035..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50623/devtoo..., se:cdpVersion: 121.0.2277.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6d379ba4c18920a67069bdb6211e984c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class="cart-item__name h4 break"]"}
+  (Session info: MicrosoftEdge=121.0.2277.83)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [6d379ba4c18920a67069bdb6211e984c, findElement {using=xpath, value=//a[@class="cart-item__name h4 break"]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 121.0.2277.83, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:50623}, msedge: {msedgedriverVersion: 121.0.2277.83 (ff4586e3b035..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50623/devtoo..., se:cdpVersion: 121.0.2277.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6d379ba4c18920a67069bdb6211e984c
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy14.getText(Unknown Source)
+at pageObjects.CartPage.cartprodtitle(CartPage.java:61)
+at testCases.TC_06_AddtoCard.verify_addtocard(TC_06_AddtoCard.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_addtocard -->
+        <test-method signature="verify_addtocard2()[pri:0, instance:testCases.TC_06_AddtoCard@6c1a5b54]" started-at="2024-01-27T12:11:44 IST" name="verify_addtocard2" finished-at="2024-01-27T12:11:53 IST" duration-ms="8911" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_addtocard2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_06_AddtoCard@6c1a5b54]" started-at="2024-01-27T12:11:54 IST" name="tearDown" finished-at="2024-01-27T12:11:55 IST" duration-ms="1211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_06_AddtoCard -->
+      <class name="testCases.TC_02_ValidSearchProduct">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC_02_ValidSearchProduct@45099dd3]" started-at="2024-01-27T12:09:46 IST" name="setup" finished-at="2024-01-27T12:09:53 IST" duration-ms="7442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_validsearch()[pri:0, instance:testCases.TC_02_ValidSearchProduct@45099dd3]" started-at="2024-01-27T12:09:53 IST" name="verify_validsearch" finished-at="2024-01-27T12:09:57 IST" duration-ms="3752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_validsearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_02_ValidSearchProduct@45099dd3]" started-at="2024-01-27T12:09:57 IST" name="tearDown" finished-at="2024-01-27T12:09:58 IST" duration-ms="882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_02_ValidSearchProduct -->
+      <class name="testCases.TC_01_WebSite_Launch">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC_01_WebSite_Launch@1e0b4072]" started-at="2024-01-27T12:09:32 IST" name="setup" finished-at="2024-01-27T12:09:44 IST" duration-ms="12100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_homepage()[pri:0, instance:testCases.TC_01_WebSite_Launch@1e0b4072]" started-at="2024-01-27T12:09:44 IST" name="verify_homepage" finished-at="2024-01-27T12:09:45 IST" duration-ms="721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_homepage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_01_WebSite_Launch@1e0b4072]" started-at="2024-01-27T12:09:45 IST" name="tearDown" finished-at="2024-01-27T12:09:46 IST" duration-ms="700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_01_WebSite_Launch -->
+      <class name="testCases.TC_03_InvalidSearchProduct">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC_03_InvalidSearchProduct@13e344d]" started-at="2024-01-27T12:09:58 IST" name="setup" finished-at="2024-01-27T12:10:06 IST" duration-ms="8019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_invalidsearch()[pri:0, instance:testCases.TC_03_InvalidSearchProduct@13e344d]" started-at="2024-01-27T12:10:06 IST" name="verify_invalidsearch" finished-at="2024-01-27T12:10:10 IST" duration-ms="3614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_invalidsearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_03_InvalidSearchProduct@13e344d]" started-at="2024-01-27T12:10:10 IST" name="tearDown" finished-at="2024-01-27T12:10:11 IST" duration-ms="948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_03_InvalidSearchProduct -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="utilities.ExtentReportManager"></listener>
+	</listeners>
+	<test name="Test">
+		<classes>
+			<class name="testCases.TC_01_WebSite_Launch"/>
+			<class name="testCases.TC_02_ValidSearchProduct"/>
+			<class name="testCases.TC_03_InvalidSearchProduct"/>
+			<class name="testCases.TC_04_FilterBySwitch"/> 
+			<class name="testCases.TC_05_ClearFilter"/> 
+			<class name="testCases.TC_06_AddtoCard"/>
+			<class name="testCases.TC_07_RemovefromCart"/>
+		</classes>
+	</test> <!--Test -->
+</suite> <!--Suite -->
